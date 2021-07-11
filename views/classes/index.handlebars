@@ -1,0 +1,81 @@
+<h2>Classes</h2>
+{{#each classes}}
+	<div class="block">
+		<h3>{{title}}</h3>
+		<p>
+			{{description}}
+		</p>
+		<p>Instructor: <strong>{{instructor}}</strong></p>
+		<a class="button" href="/classes/{{_id}}/details">Class Details</a>
+	</div>
+{{/each}}
+<div class="block">
+		<h3>Fundamentals of react</h3>
+		<p>
+			This course is the best course for all the beginners who are on their way to learning web development. This course contains all the fundamentals of react which form a building blocks for subsequent courses in react. Happy learning!
+		</p>
+
+		<p>Instructor: <strong>Leena</strong></p>
+		<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+</iframe><br>
+<button class='complete' onclick="complete()" >Mark as completed</button>
+	</div>
+	<div class="block">
+		<h3>Fundamentals of react</h3>
+		<p>
+			This course is the best course for all the beginners who are on their way to learning web development. This course contains all the fundamentals of react which form a building blocks for subsequent courses in react. Happy learning!
+		</p>
+
+		<p>Instructor: <strong>Leena</strong></p>
+		<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+</iframe><br>
+<button class='complete1' onclick="complete1()" >Mark as completed</button>
+	</div>
+	<div class="block">
+		<h3>Fundamentals of react</h3>
+		<p>
+			This course is the best course for all the beginners who are on their way to learning web development. This course contains all the fundamentals of react which form a building blocks for subsequent courses in react. Happy learning!
+		</p>
+
+		<p>Instructor: <strong>Leena</strong></p>
+		<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+</iframe><br>
+<button class='complete2' onclick="complete2()" >Mark as completed</button>
+	</div>
+	<div class="block">
+		<h3>Fundamentals of react</h3>
+		<p>
+			This course is the best course for all the beginners who are on their way to learning web development. This course contains all the fundamentals of react which form a building blocks for subsequent courses in react. Happy learning!
+		</p>
+
+		<p>Instructor: <strong>Leena</strong></p>
+		<iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+</iframe><br>
+<button class='complete3' onclick="complete3()" >Mark as completed</button>
+	</div>
+	<script>
+		function complete(){
+			var comp = document.querySelector('.complete');
+			comp.innerHTML = 'Marked as completed';
+			comp.style.background = '#a8eab7';
+		}
+		function complete1(){
+			var comp = document.querySelector('.complete1');
+			comp.innerHTML = 'Marked as completed';
+			comp.style.background = '#a8eab7';
+		}
+		function complete2(){
+			var comp = document.querySelector('.complete2');
+			comp.innerHTML = 'Marked as completed';
+			comp.style.background = '#a8eab7';
+		}
+		function complete3(){
+			var comp = document.querySelector('.complete3');
+			comp.innerHTML = 'Marked as completed';
+			comp.style.background = '#a8eab7';
+		}
+	</script>
